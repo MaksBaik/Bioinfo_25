@@ -1,0 +1,1000 @@
+  174  rm file
+  175  rm -p file
+  176  rm --help
+  177  rm -d file
+  178  ls
+  179  ./make_dirs_for_tsv.sh
+  180  ls
+  181  cd file
+  182  ls
+  183  cd ../
+  184  ls
+  185  rm -d file
+  186  ls
+  187  vim make_dirs_for_tsv.sh
+  188  ls
+  189  ./make_dirs_for_tsv.sh
+  190  ls
+  191  cd TRB_10_7
+  192  ls
+  193  cd ../
+  194  jupyter notebook
+  195  pip install jupyter
+  196  ls
+  197  jupyter notebook
+  198  Command 'jupyter' not found, but can be installed with:
+  199  apt install jupyter-core
+  200  Please ask your administrator.
+  201  source ~/homeworks/hw_2
+  202  pip3 install --user jupyter notebook
+  203  ls
+  204  which jupyter
+  205  find ~/.local/bin -name jupyter
+  206  nano ~/.bashrc  c
+  207  source ~/.bashrc  # или source ~/.zshrc
+  208  source ~/.bashrc rc
+  209  cd ~
+  210  ls
+  211  jupyter notebook
+  212  ls
+  213  cd homeworks/hw_2
+  214  ls
+  215  jupyter notebook
+  216  cd homeworks
+  217  hw_2
+  218  cd hw_2
+  219  jupyter notebook
+  220  cd homeworks/hw_2
+  221  ls
+  222  jupyter notebook
+  223  cd homeworks/hw_2
+  224  ls
+  225  jupyter notebook
+  226  ssh -L http://localhost:8888/tree?token=31aadf408dff69eac2ee7b89384869ssh -L http://localhost:8888/tree?token=31aadf408dff69eac2ee7b89384869
+  227  ssh -L http://localhost:8888/tree?token=31aadf408dff69eac2ee7b89384869
+  228  ls
+  229  jupyter notebook
+  230  ssh -L 8888:localhost:8888 mbaikalov@aldan3.itm-rsmu.ru
+  231  conda init bash
+  232  conda install pandas 
+  233  cd
+  234  ls
+  235  cd homeworks
+  236  cd hw_@
+  237  cd hw_2
+  238  conda env list 
+  239  pip install pandas
+  240  conda env list
+  241  conda env create -n alignment -f /projects/mipt_dbmp_biotechnology/conda/alignment.yaml
+  242  conda activate alignment
+  243  conda deactivate
+  244  conda env list
+  245  ls
+  246  cd homeworks
+  247  ls
+  248  cd hw_2
+  249  ls
+  250  ls -l
+  251  git --version
+  252  git init
+  253  cd homeworks
+  254  cd hw_@
+  255  cd hw_2
+  256  ls
+  257  git init
+  258  git remote add origin https://github.com/ваш_логин/ваш_репозиторий.git
+  259  git remote add origin https://github.com/MaksBaik/Bioinfo_25
+  260  git add .
+  261  git commit -m "hw_2"
+  262  git push origin master
+  263  git push origin base
+  264  git init
+  265  git status
+  266  git commit -m "hw_2"
+  267  git remote -v
+  268  git remote add origin https://github.com/MaksBaik/Bioinfo_25.git
+  269  git remote -v
+  270  git remote set-url origin https://github.com/ваш_логин/ваш_репозиторий.git
+  271  gir remote set-url origin https://github.com/MaksBaik/Bioinfo_25.gi
+  272  git remote set-url origin https://github.com/MaksBaik/Bioinfo_25.gi
+  273  git remote -v
+  274  git push -u origin master
+  275  remote: Support for password authentication was removed on August 13, 2021.
+  276  remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+  277  fatal: Authentication failed for 'https://github.com/MaksBaik/Bioinfo_25.gi/'git push -u origin master
+  278  git push -u origin master
+  279  LS
+  280  ls
+  281  cd ..
+  282  ls
+  283  cd ..
+  284  ls
+  285  cd bin
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd lib
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd lib32
+  294  ls
+  295  cd ..
+  296  ls
+  297  cd projects
+  298  ls
+  299  cd mipt_dbmp_biotechnology
+  300  ls
+  301  cd class_2
+  302  ls
+  303  cd ..
+  304  ls
+  305  cd class_4
+  306  ls
+  307  scp ~/classes mbaikalov@frontend.aldan3.itm-rsmu.ru:<destination_path_on_server>
+  308  ls
+  309  cd classes
+  310  mkdir class_5
+  311  ls
+  312  cd class_5
+  313  scp ~/Downloads/luciderase.fasta  mbaikalov@frontend.aldan3.itm-rsmu.ru: ~/classes/class_5
+  314  ls
+  315  scp ~/Downloads/luciderase.fasta  mbaikalov@frontend.aldan3.itm-rsmu.ru:~/classes/class_5
+  316  ls
+  317  mkdir tutorials
+  318  cp -r /projects/mipt_dbmp_biotechnology/luciferase_blast ~/tutorials/
+  319  ls
+  320  cd tutorials
+  321  ls
+  322  cd luciferase_blast
+  323  ls
+  324  ..
+  325  ../
+  326  cd ..
+  327  ls
+  328  cd classes/class_5
+  329  ls
+  330  cp /projects/mipt_dbmp_biotechnology/conda/blast.yaml ~/tutorials 
+  331  cd ..
+  332  ls
+  333  cd tutorials
+  334  ls
+  335  cd ~/tutorials/luciferase_blast
+  336  mkdir aqula
+  337  cd aqula
+  338  mv ~/tutorials/luciferase_blast/AQULA_OGS1.0.CDS.fa.gz
+  339  ls
+  340  mv ../AQULA_OGS1.0.CDS.fa.gz .
+  341  gunzip AQULA_OGS1.0.CDS.fa.gz
+  342  ls
+  343  TransDecoder.LongOrfs -t AQULA_OGS1.0.CDS.fa
+  344  conda env list
+  345  conda create -n blast_tutorial -f ../../blast.yaml
+  346  ~/tutorials/luciferase_blast/aqula$ conda create -n blast_tutorial -f ~/tutorials/blast.yaml
+  347  cd ..
+  348  ls
+  349  conda env create -n blast --file=blast.yaml
+  350  conda env list
+  351  conda activate blast
+  352  TransDecoder.LongOrfs -t AQULA_OGS1.0.CDS.fa
+  353  cd luciferase_blast
+  354  cd aqula
+  355  TransDecoder.LongOrfs -t AQULA_OGS1.0.CDS.fa
+  356  cp AQULA_OGS1.0.CDS.fa.transdecoder_dir/longest_orfs.pep acula.pep
+  357  ls
+  358  cd ..
+  359  TransDecoder.LongOrfs -t lcruciata_luc.fasta
+  360  ls
+  361  cp ~/classes/class_5/lcruciata_luc.fasta ~/tutorials/luciferase_blast
+  362  ls
+  363  cd ..
+  364  cd classes
+  365  cd class_5
+  366  ls
+  367  cp ~/classes/class_5/luciferase.fasta ~/tutorials/luciferase_blast
+  368  cd ..
+  369  cd tutorials
+  370  cd luciferase_blast
+  371  ls
+  372  TransDecoder.LongOrfs -t l.fasta
+  373  dANHK,,JAALKJHSDV KJUU KVJB KKJDBVXQQWEVQ;KSDJHEREH[VNOWIYVBLEJVSKNDFJIUR .DJFNVLEO SDF L;         Use file: /home/mbaikalov/tutorials/luciferase_blast/luciferase.fasta.transdecoder_dir/longest_orfs.pep  for Pfam and/or BlastP searches to enable homology-based coding region identification.;         Then, run TransDecoder.Predict for your final coding region predictions.; (blast) mbaikalov@frontend-1-2-13:~/tutorials/luciferase_blast$ ;         Use file: /home/mbaikalov/tutorials/luciferase_blast/luciferase.fasta.transdecoder_dir/longest_orfs.pep  for Pfam and/or BlastP searches to enable homology-based coding region identification.;         Then, run TransDecoder.Predict for your final coding region predictions.
+  374  LS
+  375  ls
+  376  cd tutorials
+  377  ls
+  378  cd luciderase_blast
+  379  cd luciferase_blast
+  380  ls
+  381  cd aqula
+  382  ls
+  383  cd ..
+  384  TransDecoder.LongOrfs -t luciferase.fasta
+  385  consa activate blast
+  386  conda activate blast
+  387  TransDecoder.LongOrfs -t luciferase.fasta
+  388  ls
+  389  TransDecoder.LongOrfs -t luciferase.fasta
+  390  cp luciferase.fasta.transdecoder_dir/longest_orfs.pep lcruciata.pep
+  391  ls
+  392  cd aqula
+  393  makeblastdb -in aqula.pep -dbtype prot
+  394  cd ..
+  395  blastp -db acula/acula.pep -query lcruciata.pep -outfmt 6 > acula_hits.txt
+  396  makeblastdb -in acula.pep -dbtype prot
+  397  cd aqula
+  398  ls
+  399  makeblastdb -in acula.pep -dbtype prot
+  400  cd ..
+  401  blastp -db acula/acula.pep -query lcruciata.pep -outfmt 6 > acula_hits.txt
+  402  blastp -db aqula/acula.pep -query lcruciata.pep -outfmt 6 > aqula_hits.txt
+  403  ls
+  404  blastp -db aqula/acula.pep -query lcruciata.pep -outfmt 6 > acula_hits.txt
+  405  cat acula_hits.txt | head | cut -f2 > acula_hits_best.txt
+  406  ls
+  407  cat acula_hits_best.txt
+  408  seqtk subseq acula/acula.pep acula_hits_best.txt > acula_hits_best.fasta
+  409  ls ~
+  410  ls ../../projects
+  411  scp ../../projects/mipt_dbmp_biotechnology/hmmer/hmm_tutorial.ipynb ~
+  412  ls
+  413  mkdir classes/class_6
+  414  mv hmm_tutorial.ipynb classes/class_6
+  415  gunzip ../../projects/mipt_dbmp_biotechnology/hhmer/acanthaster_planci_genome_prot.zip classes/class_6
+  416  unzip ../../projects/mipt_dbmp_biotechnology/hhmer/acanthaster_planci_genome_prot.zip classes/class_6
+  417  unzip ../../projects/mipt_dbmp_biotechnology/hhmer/acanthaster_planci_genome_prot.zip -d classes/class_6
+  418  unzip ../../projects/mipt_dbmp_biotechnology/hhmer/acanthaster_planci_genome_prot.zip -d classes/class_6/
+  419  conda create -n hmm
+  420  unzip ../../projects/mipt_dbmp_biotechnology/hmmer/acanthaster_planci_genome_prot.zip -d classes/class_6/
+  421  cp ../../projects/mipt_dbmp_biotechnology/hmmer/PF00021.hmm classes/class_6/
+  422  ls
+  423  cd classes
+  424  ls
+  425  cd class_6
+  426  ls
+  427  conda install bioconda::hmmer
+  428  conda env list
+  429  conda install bioconda::hmmer
+  430  conda create -n hmm
+  431  conda env list
+  432  conda install bioconda::hmmer
+  433  conda env list
+  434  conda activate hmm
+  435  hmmsearch PF00021.hmm ncbi_dataset
+  436  hmmsearch PF00021.hmm ncbi_dataset/data/GCF_001949145.1/protein.faa
+  437  conda install bioconda::hmmer
+  438  hmmsearch PF00021.hmm ncbi_dataset/data/GCF_001949145.1/protein.faa
+  439  ../
+  440  cd ,,/
+  441  cd ../
+  442  ls
+  443  cd ../
+  444  ls
+  445  cd projects
+  446  ls
+  447  cd mipt_dbmp_biotechnology
+  448  ls
+  449  cd luciferase_blast
+  450  ls
+  451  cd ../
+  452  ls
+  453  cd homework_blast
+  454  ls
+  455  cd ../
+  456  ls
+  457  cd ~
+  458  ls
+  459  cd classes
+  460  ls
+  461  cd class_5
+  462  ls
+  463  cd ../
+  464  ls
+  465  cd ../
+  466  ls
+  467  cd R
+  468  ls
+  469  cd ../
+  470  cd tutorials
+  471  ls
+  472  cd luciferase_blast
+  473  ls
+  474  cat aqula_hits
+  475  cat aqula_hits.txt
+  476  cat aqula_best_hits.txt
+  477  cat acula_hits_best.txt
+  478  ls
+  479  cd ../
+  480  ls
+  481  cd aqula
+  482  cd luciferase_blast
+  483  ls
+  484  gunzup ILUMI_OGS1.2.CDS.fa.gz
+  485  gunzip ILUMI_OGS1.2.CDS.fa.gz
+  486  ls
+  487  gunzip PPYR_OGS1.1.CDS.fa.gz
+  488  ls
+  489  TransDecoder.LongOrfs -t ILUMI_OGS1.2.CDS.fa
+  490  conda env list
+  491  conda activate blast
+  492  TransDecoder.LongOrfs -t ILUMI_OGS1.2.CDS.fa
+  493  ls
+  494  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir
+  495  ls
+  496  cd ../
+  497  ls
+  498  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir.__checkpoints_longorfs
+  499  ls
+  500  cd ../
+  501  ls
+  502  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir
+  503  ls
+  504  makeblastdb -in longest_orfs.pep -dbtype prot -out my_transcriptome_db
+  505  ls
+  506  blastp -query ~/tutorials/luciferase_blast/luciferase.fasta -db my_transcriptome_db -outfmt 6 -out blast_results.txt
+  507  ls
+  508  cat blast_results.txt
+  509  ls
+  510  cat blast_results.txt
+  511  blastp -db acula/acula.pep -query lcruciata.pep -outfmt 6 > acula_hits.txt
+  512  blastp -db acula/acula.pep -query lcruciata.pep -outfmt 6 > acula_hits.txls
+  513  ls
+  514  cd ../
+  515  ls
+  516  cd luciferase.fasta.transdecoder_dir
+  517  ls
+  518  # Выполните BLASTP
+  519  blastp -query luciola_cruciata_luciferase.fasta -db my_transcriptome_db -outfmt 6 -out blast_results.txt
+  520  # Выполните BLASTP
+  521  blastp -query luciola_cruciata_luciferase.fasta -db my_transcriptome_db -outfmt 6 -out blast_results.txt
+  522  blastp -query longest_orfs.pep -db ~/tutorials/luciferase_blast/ILUMI_OGS1.2.CDS.fa.tra my_transcriptome_db -outfmt 6 -out blast_results.txt
+  523  blastp -query longest_orfs.pep -db ~/tutorials/luciferase_blast/ILUMI_OGS1.2.CDS.fa.transdecoder_dir/my_transcriptome_db -outfmt 6 -out blast_results.txt
+  524  ls
+  525  cat blast_results.txt
+  526  cat blast_results
+  527  cat blast_result
+  528  cat blast_results.txt
+  529  sort -k 11,11n blast_results.txt | head -n 10 > top_hits.txt
+  530  ls
+  531  cat top_hits.txt
+  532  ls
+  533  cd tutorials
+  534  ls
+  535  cd luciferase_blast 
+  536  ls
+  537  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir.__checkpoints_longorfs
+  538  lsa
+  539  ls
+  540  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir
+  541  ls
+  542  TransDecoder.LongOrfs -t <транс�ILUMI_OGS1.2.CDS.fa
+  543  TransDecoder.LongOr
+  544  fs -t ILUMI_OGS1.2.CDS.fa
+  545  conda env list
+  546  conda activate blast
+  547  cd ../
+  548  TransDecoder.LongOr
+  549  TransDecoder.LongOrfs -t <транс�ILUMI_OGS1.2.CDS.fa
+  550  cd ILUMI_OGS1.2.CDS.fa.transdecoder_dir.__checkpoints_longorfs
+  551  ls
+  552  lcruciata.pep
+  553  # Запуск TransDecoder.LongOrfs для предсказания ORF
+  554  TransDecoder.LongOrfs -t ILUMI_OGS1.2.CDS.fa -O transdecoder_out
+  555  # Итоговые белки будут в файле:
+  556  # transdecoder_out/longest_orfs.pep
+  557  cd ../
+  558  ls
+  559  # Запуск TransDecoder.LongOrfs для предсказания ORF
+  560  TransDecoder.LongOrfs -t ILUMI_OGS1.2.CDS.fa -O transdecoder_out
+  561  # Итоговые белки будут в файле:
+  562  # transdecoder_out/longest_orfs.pep
+  563  ls
+  564  cd transdecoder_out
+  565  makeblastdb -in longest_orfs.pep -dbtype prot -out ILUMI_protein_db
+  566  blastp -query ../lcruciata.pep -db ILUMI_protein_db -out blast_results.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" -evalue 1e-10 -max_target_seqs 10
+  567  # Итоговые бе�# Итоговые белки будут в файле:.pep
+  568  blastp -query ~/tutorials/luciferase_blast/lcruciata.pep -db ILUMI_protein_db -out blast_results.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore" -evalue 1e-10 -max_target_seqs 10
+  569  ls
+  570  cut -f2 blast_results.txt > top10_hits.ids
+  571  seqtk subseq longest_orfs.pep top10_hits.ids > top10_luciferase_candidates.fasta
+  572  ls
+  573  cd tutorials
+  574  ls
+  575  cd luciferase_blast
+  576  ls
+  577  Invoke-WebRequest -Uri "https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/win64/datasets.exe" -OutFile "datasets.exe"
+  578  .\datasets.exe --help
+  579  Invoke-WebRequest -Uri "https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/win64/datasets.exe" -OutFile "datasets.exe"
+  580  conda create -n ncbi_datasets
+  581  conda activate ncbi_datasets
+  582  conda install -c conda-forge ncbi-datasets-cli
+  583  conda update -n base -c defaults conda
+  584  datasets download genome accession <id генома вашегn    --include protein
+  585  datasets download genome accession <id генома вашег�  --include protein
+  586  datasets downl
+  587  ession  --include protein
+  588  datasets download genome accession GCF_000001405.40 --include protein
+  589  ls
+  590  datasets download genome accession GCA_000001635.9 --include protein
+  591  conda env
+  592  conda env list
+  593  conda activate hmm
+  594  conda install -c conda-forge ncbi-datasets-cli
+  595  datasets download genome accession GCA_000001635.9 --include protein
+  596  datasets download genome accession GCF_000001405.40 --include protein
+  597  wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+  598  gunzip Pfam-A.hmm.gz
+  599  hmmpress Pfam-A.hmm 
+  600  cd ..
+  601  ls
+  602  cd ..
+  603  ls
+  604  mkdir hhmer
+  605  ls
+  606  cd hhmer
+  607  datasets download genome accession GCF_000001405.40 --include protein
+  608  ls
+  609  unzip ncbi_dataset.zip
+  610  ls
+  611  head ncbi_dataset/data/GCF_000001405.40/protein.faa
+  612  wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+  613  ls
+  614  gunzip Pfam-A.hmm.gz
+  615  hmmpress Pfam-A.hmm
+  616  ls
+  617  hmmsearch   --domtblout BBOX_results.domtblout \  # Основной выход в табличном формате
+  618  hmmsearch \
+  619  hmmsearch --domtblout BBOX_results.domtblout --tblout BBOX_results.tblout -o BBOX_search.log Pfam-A.hmm ncbi_dataset/data/GCF_000001405.40/protein.faa
+  620  cd hhmer
+  621  ls
+  622  grep -v "^#" BBOX_results.domtblout | head -n 5
+  623  grep -v "^#" BBOX_results.tblout | head -n 3
+  624  grep -v "^#" BBOX_human.domtblout | sort -g -k7 | head -n 2 | awk '{print $1}' > top_human_proteins.list
+  625  grep -v "^#" BBOX_results.domtblout | sort -g -k7 | head -n 2 | awk '{print $1}' > top_human_proteins.list
+  626  ls
+  627  cat top_human_proteins.list
+  628  ls
+  629  mkdir MOUSE
+  630  LS
+  631  ls
+  632  cd MOUSE
+  633  datasets download genome accession GCF_000001635.27 --include protein
+  634  unzip ncbi_dataset.zip
+  635  conda activate hmm
+  636  datasets download genome accession GCF_000001635.27 --include protein
+  637  unzip ncbi_dataset.zip
+  638  ls
+  639  wget https://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+  640  ls
+  641  gunzip Pfam-A.hmm.gz
+  642  hmmpress Pfam-A.hmm
+  643  ls
+  644  hmmsearch --domtblout mouse_zinc_finger.domtblout -E 1e-5 --cpu 4 Pfam-A.hmm ncbi_dataset/data/GCF_000001635.27/protein.faa >hmmsearch.lpg
+  645  ls
+  646  cd hhmer
+  647  ls
+  648  cd MOUSE
+  649  ls
+  650  grep -v "^#" mouse_zinc_finger.domtblout sort -g -k7 head -n 2 awk '{print $1}' > top_mouse_zinc_fingers.list
+  651  ls
+  652  cat top_mouse_zinc_fingers.list
+  653  grep -v "^#" mouse_zinc_finger.domtblout | sort -g -k7 | head -n 2 | awk '{print $1}' > top_mouse_zinc_fingers.list
+  654  cat top_mouse_zinc_fingers.list
+  655  cd ..
+  656  ls
+  657  cat top_human_proteins.list
+  658  grep -v "^#" BBOX_results.domtblout | awk '$7 < 1e-5 {print $1,$3,$4,$7,$18,$19}' > human_zinc_fingers.txt
+  659  ls
+  660  cd MOUSE
+  661  LS
+  662  ls
+  663  grep -v "^#" mouse_zinc_fingers.domtblout | awk '$7 < 1e-5 {print $1,$3,$4,$7,$18,$19}' > mouse_zinc_fingers.txt
+  664  grep -v "^#" mouse_zinc_finger.domtblout | awk '$7 < 1e-5 {print $1,$3,$4,$7,$18,$19}' > mouse_zinc_fingers.txt
+  665  ls
+  666  cd sequence analysis
+  667  cd 'sequence analysis'
+  668  ls
+  669  grep 'boo' a_file
+  670  grep 'boo' a_file.txt
+  671  cat a_file.txt
+  672  grep -h
+  673  grep --help
+  674  grep -n 'boo' a_file.txt
+  675  grep -v 'boo' a_file.txt
+  676  grep -c 'boo' a_file.txt
+  677  grep -i 'BOO' a_file.txt
+  678  awk '{print}' employee.txt
+  679  cat employee.txt
+  680  awk '/manager/ {print}' employee.txt
+  681  awk 'NR==3, NR==6 {print NR,$0}' employee.txt
+  682  awk '{ if (length($0) > max) max = length($0) } END { print max }' employee.txt
+  683  awk 'END { print NR }' employee.txt
+  684  awk '{ print NR }' employee.txt
+  685  awk 'length($0) > 10' employee.txt
+  686  awk '{ if($3 == "account") print $0;}' employee.txt
+  687  awk 'BEGIN { for(i=1;i<=6;i++) print "square of", i, "is",i*i; }'
+  688  sed 's/unix/linux/' fileforsed.txt
+  689  sed 's/unix/linux/g' fileforsed.txt
+  690  sed 's/unix/linux/g2' fileforsed.txt
+  691  cut -f 1 employee.txt
+  692  cut -d " " -f 1 employee.txt
+  693  wget https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20250330.vcf.gz
+  694  ls
+  695  gunzip clinvar_20250330.vcf.gz
+  696  ls
+  697  head clinvar_20250323.vcf
+  698  head clinvar_20250330.vcf
+  699  grep “^15” clinvar_20250323.vcf | headgrep “^15” clinvar_20250323.vcf | headgrep “^15” clinvar_20250323.vcf | head
+  700  grep “^15” clinvar_20250323.vcf | head
+  701  grep “^'5�' clinvar_20250330.vcf | head
+  702  grep '^15' clinvar_20250330.vcf | head
+  703  grep “^15” clinvar_20250323.vcf | cut -f 4 | head
+  704  grep “^'5�' clinvar_20250330.vcf | cut -f 4 | head
+  705  grep '^15' clinvar_20250330.vcf | cut -f 4 | head
+  706  grep “^15” clinvar_20250323.vcf | cut -f 4 | grep -w “[A-Z]” | head
+  707  grep “^15�' clinvar_20250323.vcf | cut -f 4 | grep -w “[A-Z]” | head
+  708  ls
+  709  cd 'sequence analysis'
+  710  grep “^15” clinvar_20250323.vcf | cut -f 4 | grep -w “[A-Z]” | head
+  711  grep “~cf 
+  712  ls
+  713  cd 'sequence analysis'
+  714  grep “^15” clinvar_20250323.vcf | cut -f 4 | grep -w “[A-Z]” | head
+  715  grep “^15�' clinvar_20250323.vcf | cut -f 4 | grep -w “[A-Z]” | head
+  716  ls
+  717  cd 'sequence analysis'
+  718  grep "^15" clinvar_20250330.vcf | cut -f 4 | grep -w "[A-Z]" | head
+  719  grep "^15" clinvar_20250323.vcf | cut -f 4 | grep -w "[A-Z]" | sort | uniq -c
+  720  grep "^15" clinvar_20250330.vcf | cut -f 4 | grep -w "[A-Z]" | sort | uniq -c
+  721  grep "^15" clinvar_20250330.vcf | cut -f 4 | grep -w "[A-Z]" | sort | uniq -c | sort -rn
+  722  grep "^15" clinvar_20250323.vcf | cut -f 4 | grep -w "[A-Z]" | sort | uniq -c | sort -rn | head -1
+  723  grep "^15" clinvar_20250330.vcf | cut -f 4 | grep -w "[A-Z]" | sort | uniq -c | sort -rn | head -1
+  724  grep "^15" clinvar_20250330.vcf | cut -f 4,5 | head
+  725  grep "^15" clinvar_20250330.vcf | cut -f 4,5 | grep -w $'[A-Z]\t[A-Z]' | head
+  726  grep "^15" clinvar_20250330.vcf | cut -f 4,5 | grep -w $'[A-Z]\t[A-Z]' | sort | uniq -c | sort -rn | head -1
+  727  env list
+  728  conda env list
+  729  conda create -n sra_tutorial
+  730  conda activate sra_tutprial
+  731  conda activate sra_tutorial
+  732  conda install -c bioconda sra-tools
+  733  prefetch SRR30869094
+  734  fasterq-dumpSRR30869094
+  735  fasterq-dump SRR30869094
+  736  wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/3.2.1/sratoolkit.3.2.1-alma_linux64.tar.gz
+  737  ls
+  738  gunzip  sratoolkit.3.2.1-alma_linux64.tar.gz
+  739  ls
+  740  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR124/089/SRR12486989/SRR12486989_1.fastq.gz -o SRR12486989_Human_Eye_Metagenome_1.fastq.gz
+  741  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR124/089/SRR12486989/SRR12486989_2.fastq.gz -o SRR12486989_Human_Eye_Metagenome_2.fastq.gz
+  742  LS
+  743  ls
+  744  gunzip  SRR12486989_Human_Eye_Metagenome_1.fastq.gz
+  745  ls
+  746  gunzip  SRR12486989_Human_Eye_Metagenome_2.fastq.gz
+  747  ls
+  748  vim downloading_data.sh
+  749  ls
+  750  ./downloading_data.sh
+  751  chmod +x downloading_data.sh
+  752  ./downloading_data.sh
+  753  ls
+  754  vim count_rids.sh
+  755  vim downloading_data.sh
+  756  vim count_rids.sh
+  757  vim downloading_data.sh
+  758  vim count_rids.sh
+  759  reads1=$(zcat SRR12486989_Human_Eye_Metagenome_1.fastq.gz | wc -1)
+  760  reads1=$(zcat SRR12486989_Human_Eye_Metagenome_1.fastq.gz | wc -l)
+  761  reads2=$(zcat SRR12486989_Human_Eye_Metagenome_2.fastq.gz | wc -l)
+  762  total_reads=$(( (reads1 + reads2) / 4 ))
+  763  echo "Total reads: $total_reads"
+  764  vim download_2.sh
+  765  ls
+  766  chmod +x download_2.sh
+  767  ls
+  768  ./downloading_data.sh
+  769  ls
+  770  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR212/007/SRR2121787/SRR2121787_1.fastq.gz -o SRR2121787_GSM1828878_p53.wt.Bcells.IR.2_Mus_musculus_RNA-Seq_1.fastq.gz
+  771  conda install -c bioconda fastqc -y
+  772  fastqc
+  773  ls
+  774  fastqc SRR12486989_Human_Eye_Metagenome_1.fastq.gz SRR12486989_Human_Eye_Metagenome_2.fastq.gz -o fastqc_result
+  775  ls
+  776  mkdir fastqc_result
+  777  ls
+  778  fastqc SRR12486989_Human_Eye_Metagenome_1.fastq.gz SRR12486989_Human_Eye_Metagenome_2.fastq.gz -o fastqc_result
+  779  ls
+  780  cd fastqc_result
+  781  ls
+  782  lls
+  783  ls
+  784  conda create -n trimming
+  785  conda activate trimming
+  786  conda install bioconda::trimmomatic
+  787  pip install cutadapt
+  788  conda install bioconda::fastp
+  789  ls /projects/mipt_dbmp_biotechnology/fastqc_and_trimming
+  790  trimmomatic PE -phred33 /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:20
+  791  TRAILING:20 SLIDINGWINDOW:4:15 MINLEtrimmomatic PE -phred33 /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:20N:36
+  792  trimmomatic PE -phred33 /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36
+  793  conda activate trimming
+  794  trimmomatic PE -phred33 /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz  ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36
+  795  conda activate trimming
+  796  trimmomatic PE /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz
+  797  /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz
+  798  ./SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.paired.fastq.gz
+  799  ./SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.unpaired.fastq.gz
+  800  SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.paired.fastq.gz
+  801  SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.unpaired.fastq.gz
+  802  ILLUMINACLIP:/projects/mipt_dbmp_biotechnology/fastqc_and_trimming/TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36
+  803  trimmomatic PE /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.fastq.gz /projects/mipt_dbmp_biotechnology/fastqc_and_trimming/SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.fastq.gz ./SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.paired.fastq.gz ./SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_1.unpaired.fastq.gz SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.paired.fastq.gz SRR2121774_GSM1828865_p53.null.Bcells.IR.1_Mus_musculus_RNA-Seq_2.unpaired.fastq.gz ILLUMINACLIP:/projects/mipt_dbmp_biotechnology/fastqc_and_trimming/TruSeq3-PE.fa:2:30:10 LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:36
+  804  ls
+  805  cat  LEADING:20
+  806  echo LEADING:20
+  807  cat LEADING:20
+  808  cat SLIDINGWINDOW:4:15
+  809  cat  TRAILING:20
+  810  ls
+  811  ls -l
+  812  rm LEADING:20
+  813  ls
+  814  rm SLIDINGWINDOW:4:15
+  815  ls
+  816  rm ILLUMINACLIP:TruSeq3-PE.fa:2:30:10
+  817  rm TRAILING:20
+  818  ls
+  819  ls -l
+  820  cutad
+  821  ls -l
+  822  ls
+  823  cd ../
+  824  ls
+  825  cd ../
+  826  ls
+  827  cd projects
+  828  ls
+  829  cd mipt_dbmp_biotechnology
+  830  ls
+  831  cd ~
+  832  ls
+  833  cd homeworks
+  834  ls 
+  835  mkdir hw_8
+  836  cd hw_8
+  837  ls
+  838  nano testsript.sh
+  839  ls
+  840  chmod +x testsript.sh
+  841  chmod +x testsript.s
+  842  chmod +x testsript.sh
+  843  ls
+  844  bash testsript.sh
+  845  ./testscript.sh
+  846  ./testsript.sh
+  847  vim testsript.sh
+  848  ./testsript.sh
+  849  vim testsript.sh
+  850  ls
+  851  ./testsript.sh
+  852  ls
+  853  cd ''$'\320\224\320\227''8'
+  854  ls
+  855  cd ../
+  856  ls
+  857  mv ''$'\320\224\320\227''8' files
+  858  ls
+  859  cd files
+  860  cd 1
+  861  ls
+  862  cat fin
+  863  cd ../../
+  864  ls
+  865  vim sumscript.sh
+  866  ls
+  867  rm testsript.sh
+  868  ls
+  869  bash sumscript.sh
+  870  ls
+  871  cat fout
+  872  cat files/1/fin
+  873  cd .././/
+  874  ls
+  875  cd hw_8
+  876  ls
+  877  vim helloworld.sh
+  878  ls
+  879  bash helloworld.sh
+  880  cat fout
+  881  ls
+  882  bash sumscript.sh
+  883  cat fout
+  884  vim helloworld.sh
+  885  ls
+  886  bash helloworld.sh
+  887  cat fout
+  888  vim tenthsymbol.sh
+  889  ls
+  890  bash tenthsymbol.sh
+  891  cat fout
+  892  cat files/3/fin
+  893  ls
+  894  vim luckyticket.sh
+  895  ls
+  896  cat fout
+  897  cat files/4/fin
+  898  bash luckyticket.sh
+  899  vim luckyticket.sh
+  900  cat fout
+  901  bash luckyticket.sh
+  902  cat fout
+  903  ls
+  904  cat files/5/fin
+  905  vim sortsequences.sh
+  906  ls
+  907  bash sortsequences.sh
+  908  cat fout 
+  909  vim sortsequences.sh
+  910  head -n -13 fout > fout 
+  911  cat fout 
+  912  ls
+  913  cat fout 
+  914  bash #!/bin/bash
+  915  bash sumscript.sh
+  916  cat fout
+  917  bash helloworld.sh
+  918  cat fout 
+  919  bash tenthsymbol.sh
+  920  bash luckyticket.sh
+  921  cat fout 
+  922  vim sortsequences.sh
+  923  ls
+  924  bash sortsequences.sh
+  925  ls
+  926  cat test
+  927  vim sortsequences.sh
+  928  ls
+  929  bash sortsequences.sh
+  930  cat fout 
+  931  cat test
+  932  vim sortsequences.sh
+  933  ls
+  934  bash sortsequences.sh
+  935  cat fout
+  936  vim averagelenght.sh
+  937  ls
+  938  cd homeworks/hw_8
+  939  ls
+  940  cat fout
+  941  ls
+  942  vim averagelenght.sh
+  943  ls
+  944  vim averagelenght.sh
+  945  ls
+  946  vim averagelenght.sh
+  947  ls
+  948  rn averagelenght.sh sumlenght.sh
+  949  ls
+  950  mv averagelenght.sh generallenght.sh
+  951  ls
+  952  vim generallenght.sh
+  953  ls
+  954  cat fout
+  955  cat files/6/fin
+  956  cd files
+  957  cd 6
+  958  ls
+  959  cd 6.1
+  960  ls
+  961  cd ../
+  962  cd 6.2
+  963  ls
+  964  cat fin
+  965  cd ../
+  966  cd 6.1
+  967  cat fin
+  968  cd ../
+  969  ls
+  970  vim generallenght.sh
+  971  ls
+  972  bash generallenght.sh
+  973  ls
+  974  cat fout
+  975  cat files/6/6.2/fin
+  976  ls
+  977  vim generallenght.sh
+  978  cat fout
+  979  cat files/8/fin
+  980  cd ../
+  981  ls
+  982  cd ../../
+  983  ls
+  984  cd projects
+  985  ls
+  986  cd mipt_dbmp_biotechnology
+  987  ls
+  988  cd ~
+  989  ls
+  990  cd classes
+  991  ls
+  992  cd class_6
+  993  ls
+  994  cd ncbi_dataset
+  995  ls
+  996  cd data
+  997  cd 
+  998  ls
+  999  cd classes/class_6/ncbi_dataset/data
+ 1000  ls
+ 1001  cd 
+ 1002  ls
+ 1003  cd tutorials
+ 1004  ls
+ 1005  cd ../
+ 1006  cd  fastqc_result
+ 1007  ls
+ 1008  cd 
+ 1009  cd  hhmer
+ 1010  ls
+ 1011  cd 
+ 1012  ls
+ 1013  cd R 
+ 1014  ls
+ 1015  cd x86_64-pc-linux-gnu-library
+ 1016  ls
+ 1017  cd 4.1
+ 1018  ls
+ 1019  cd 
+ 1020  ls
+ 1021  cd classes
+ 1022  ls
+ 1023  cd class_6
+ 1024  ls
+ 1025  cd ncbi_dataset
+ 1026  cd 
+ 1027  cd classes/class_6/ncbi_dataset
+ 1028  ls
+ 1029  cd data
+ 1030  ls
+ 1031  cd GCF_001949145.1
+ 1032  ls
+ 1033  cd 
+ 1034  ls
+ 1035  cd classes
+ 1036  cd class_5
+ 1037  ls
+ 1038  cd 
+ 1039  ls
+ 1040  cd 'sequence analysis'
+ 1041  ls
+ 1042  vim insertiondeletion.sh
+ 1043  ls
+ 1044  cd clinvar_20250330.vcf
+ 1045  rm insertiondeletion.sh
+ 1046  ls
+ 1047  cd 
+ 1048  cd homeworks
+ 1049  cd hw_8
+ 1050  ls
+ 1051  vim insertiondeletion.sh
+ 1052  cat ~/sequence analysis/clinvar_20250330.vcf
+ 1053  cat ~/'sequence analysis'/clinvar_20250330.vcf
+ 1054  head ~/'sequence analysis'/clinvar_20250323.vcf
+ 1055  cd ~/'sequence analysis'
+ 1056  ls
+ 1057  head  clinvar_20250330.vcf
+ 1058  cd 
+ 1059  cd homeworks/hw_8
+ 1060  ls
+ 1061  vim insertiondeletion.sh
+ 1062  ls
+ 1063  vim insertiondeletion.sh
+ 1064  bash insertiondeletion.sh
+ 1065  hmmsearch   --domtblout BBOX_results.domtblout \  # Основной выход в табличном формате
+ 1066  cd
+ 1067  ls
+ 1068  cd 'sequence analysis'
+ 1069  ls
+ 1070  cp clinvar_20250330.vcf ~/homeworks/hw_8
+ 1071  ls
+ 1072  cd 
+ 1073  cd homeworks/hw_8
+ 1074  ls
+ 1075  vim insertiondeletion.sh
+ 1076  ls
+ 1077  bash insertiondeletion.sh
+ 1078  ls
+ 1079  cat test
+ 1080  vim insertiondeletion.sh
+ 1081  bash insertiondeletion.sh
+ 1082  cat test
+ 1083  head -n 20 clinvar_20250330.vcf
+ 1084  head -n 50 clinvar_20250330.vcf
+ 1085  head -n 100 clinvar_20250330.vcf
+ 1086  vim insertiondeletion.sh
+ 1087  ls
+ 1088  bash insertiondeletion.sh
+ 1089  ls
+ 1090  cat test
+ 1091  vim insertiondeletion.sh
+ 1092  c
+ 1093  bash insertiondeletion.sh
+ 1094  ls
+ 1095  cat test
+ 1096  vim insertiondeletion.sh
+ 1097  bash insertiondeletion.sh
+ 1098  ls
+ 1099  cat fout
+ 1100  rm fout
+ 1101  ls
+ 1102  bash sumscript.sh
+ 1103  bash helloworld.sh
+ 1104  bash tenthsymbol.sh
+ 1105  bash luckyticket.sh
+ 1106  bash sortsequences.sh
+ 1107  bash generallenght.sh
+ 1108  bash insertiondeletion.sh
+ 1109  cat fout
+ 1110  history > history.txt
+ 1111  cat history.txt
+ 1112  conda env list
+ 1113  ls
+ 1114  conda env list
+ 1115  conda install -c bioconda sra-tools
+ 1116  ls
+ 1117  cd homeworks
+ 1118  mkdir hw_9
+ 1119  ls
+ 1120  cd hw_9
+ 1121  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR142/007/ERR14230607/ERR14230607.fastq.gz -o ERR14230607_Illumina_HiSeq_4000_sequencing.fastq.gz
+ 1122  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR142/095/ERR14230595/ERR14230595.fastq.gz -o ERR14230595_Illumina_HiSeq_4000_sequencing.fastq.gz
+ 1123  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR142/086/ERR14230586/ERR14230586.fastq.gz -o ERR14230586_Illumina_HiSeq_4000_sequencing.fastq.gz
+ 1124  curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR142/082/ERR14230582/ERR14230582.fastq.gz -o ERR14230582_Illumina_HiSeq_4000_sequencing.fastq.gz
+ 1125  ls
+ 1126  vim fastqc_slurm.sh
+ 1127  ls
+ 1128  conda install bioconda::fastqc
+ 1129  conda install bioconda::multiqc
+ 1130  ls
+ 1131  sbatch fastqc_slurm.sh
+ 1132  >squeue -o "%.6i %.14u %.4C %.7m %.15N %.10Q %.7f %.12M %.2t %.10P %.20j %.10b %r"
+ 1133  squeue -o "%.6i %.14u %.4C %.7m %.15N %.10Q %.7f %.12M %.2t %.10P %.20j %.10b %r"
+ 1134  cat squeue
+ 1135  cat JobName.818021.log
+ 1136  vim fastqc_slurm.sh
+ 1137  ls
+ 1138  sbatch fastqc_slurm.sh
+ 1139  ls
+ 1140  cat JobName.818023.log
+ 1141  vim fastqc_slurm.sh
+ 1142  ls
+ 1143  cat JobName.818023.log
+ 1144  cat squeue
+ 1145  cat fastqc_slurm.sh
+ 1146  ls fastqc_reports
+ 1147  cd fastqc_reports
+ 1148  ls
+ 1149  conda env list
+ 1150  cd ../
+ 1151  ls
+ 1152  vim fastqc_slurm.sh
+ 1153  bash fastqc_slurm.sh
+ 1154  module avail fastqc
+ 1155  module avail multiqc
+ 1156  module load fastqc
+ 1157  module load multiqc
+ 1158  conda create -n ngs_analysis -c bioconda fastqc multiqc
+ 1159  conda activate ngs_analysis
+ 1160  bash fastqc_slurm.sh
+ 1161  ls
+ 1162  cd fastqc_reports
+ 1163  ls
+ 1164  cd ../
+ 1165  cd multiqc_report
+ 1166  ls
+ 1167  cat multiqc_report.html
+ 1168  ls
+ 1169  cd multiqc_data
+ 1170  ls
+ 1171  cd ../
+ 1172  ls
+ 1173  history > history.txt
